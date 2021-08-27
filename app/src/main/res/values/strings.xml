@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WeatherView</string>
+    <string name="ordu">Ordu</string>
+    <string name="time">17.45 PM</string>
+    <string name="background">background</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="degree_23">23ºC</string>
+    <string name="moon_cloud_fast_wind">Moon Cloud Fast Wind</string>
+    <string name="date">Friday, 27 August 2021</string>
+    <string name="humidity_icon">Humidity Icon</string>
+    <string name="humidity_value">75%</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_icon">Wind Icon</string>
+    <string name="wind_value">8 km/h</string>
+    <string name="wind">Wind</string>
+    <string name="air_pressure_icon">Air Pressure Icon</string>
+    <string name="air_pressure_value">1011</string>
+    <string name="air_pressure">Air Pressure</string>
+    <string name="visibility_icon">Visibility Icon</string>
+    <string name="visibility_value">6 km</string>
+    <string name="visibility">Visibility</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="degree_24">24ºC</string>
+    <string name="sunday">Sunday</string>
+    <string name="degree_26">26ºC</string>
+    <string name="monday">Monday</string>
+</resources>
