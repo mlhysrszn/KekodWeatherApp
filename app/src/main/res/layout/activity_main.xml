@@ -95,6 +95,7 @@
         android:background="#B3FFFFFF"
         app:cardCornerRadius="32dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/weatherCard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/timeText">
 
@@ -113,7 +114,7 @@
         android:id="@+id/infoCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="48dp"
+        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="16dp"
         android:background="@color/white"
         app:cardCornerRadius="16dp"
@@ -295,10 +296,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/sundayCard"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/sundayCard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/todayText">
@@ -318,10 +319,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
             android:layout_marginTop="-6dp"
+            android:contentDescription="@string/weather_icon"
             android:paddingHorizontal="8dp"
             android:paddingVertical="24dp"
-            android:src="@drawable/cloud_lightning"
-            android:contentDescription="@string/weather_icon" />
+            android:src="@drawable/cloud_lightning" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -340,7 +341,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/mondayCard"
@@ -362,10 +364,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
             android:layout_marginTop="-6dp"
+            android:contentDescription="@string/weather_icon"
             android:paddingHorizontal="8dp"
             android:paddingVertical="24dp"
-            android:src="@drawable/sun_cloud_mid_rain"
-            android:contentDescription="@string/weather_icon" />
+            android:src="@drawable/sun_cloud_mid_rain" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -383,11 +385,11 @@
         android:id="@+id/mondayCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/sundayCard"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/sundayCard"
         app:layout_constraintTop_toBottomOf="@id/todayText">
@@ -407,10 +409,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
             android:layout_marginTop="-6dp"
+            android:contentDescription="@string/weather_icon"
             android:paddingHorizontal="8dp"
             android:paddingVertical="24dp"
-            android:src="@drawable/big_rain_drops"
-            android:contentDescription="@string/weather_icon" />
+            android:src="@drawable/big_rain_drops" />
 
         <TextView
             android:layout_width="wrap_content"
